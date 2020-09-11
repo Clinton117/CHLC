@@ -3,6 +3,7 @@ print("  / |")
 print(" /  |")
 print("/ __|")
 
+
 character_name = "Tom"
 character_age = "48 "
 print("There once was a man named " + character_name + ",")
@@ -10,8 +11,26 @@ print("He was " + character_age + " years old.")
 print("He really liked the name " + character_name + ",")
 print("But didn't like being " + character_age + ".")
 
+
 phrase = "Clinton Cheung"
 print(phrase.upper().islower()) <Change to Upper and check if it is Upper
 print(len(phrase)) <- Count the length of the strings
 print(phrase[8])  -< Return the character from a specific postition, starting from 0
 print(phrase.index("Ch")) -< Return the starting position of the strings/character inside the parentheses
+print(phrase.replace("Clinton", "Rachel")) <- Replace the first strings by the second one
+
+
+my_num = 17
+print(str(my_num) + " is my favorite number") -< Combine number with strings (Str = make numbers as strings)
+print(pow(4, 2)) <- 4^2 = 16
+print(max(4, 2)) 
+from math import * <To use more maths functions
+print(ceil(3.2)) -< Round up
+print(floor(3.8)) -< Round down
+print(sqrt(3.8)) -< Square Root
+
+name = input('What is your name? ')
+favourite_color = input('What is your favourite color then? ')
+print(name + " likes " + favourite_color)
+Ask name and favourite color, and print out the strings based on the answer
+
